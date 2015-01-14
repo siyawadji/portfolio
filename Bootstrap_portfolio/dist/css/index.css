@@ -1,0 +1,95 @@
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar-default
+{
+    background-color: white;
+}
+
+
+
+.color
+{
+    background-color: #F0CA95;
+    padding: inherit;
+}
+
+.pcce
+{
+    font-size: 35px;
+}
+
+.goa
+{
+    font-size: 20px;
+}
+  
+.navbar-header a
+{
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: cursive;
+    color: #F0CA95;
+    position: relative;
+    animation-duration: 3s;
+    animation-name: slidein;
+    @keyframe slidein
+    {
+        from
+        {
+            margin-left: 100%;
+            width: 300%;
+        }
+        top
+        {
+            margin-left: 0%;
+            width: 100%;
+        }
+    }
+}
+
+.face a
+{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.back a
+{
+    color: black;
+}
+
+.btn-primary
+{
+    border-color: white;
+    background-color: #F5825F; 
+}
+
+#carousel-example-generic
+{
+    height: 100%;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.text-center
+{
+    text-align: center;
+    vertical-align: center;
+}
+
+.pad-center
+{
+    padding: 50px;
+}
+
+.jumbotron
+{
+    background-color: #F5825F;
+}
